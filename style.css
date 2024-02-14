@@ -119,3 +119,30 @@ img {
         flex: 0 1 auto;
     }
 }
+
+.third-section {
+    height: 450px;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 750px;
+    }
+    
+    em {
+        font-size: 36px;
+        font-weight: lighter;
+        margin-bottom: 0;
+    }
+
+    h2 {
+        margin-top: 0;
+        align-self: flex-end;
+    }
+}
