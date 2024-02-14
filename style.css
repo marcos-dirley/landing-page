@@ -80,3 +80,42 @@ body {
     }
 }
 
+img {
+    max-width: 100%;
+}
+
+.second-section {
+
+    h1 {
+        font-size: 36px;
+        font-weight: 900;
+        color: #1f2937;
+        text-align: center;
+        margin: 32px 0;
+    }
+
+    .info-container {
+        margin-bottom: 90px;
+        display: flex;
+        justify-content: center;
+        gap: 48px;
+
+        p {
+            width: 170px;
+            flex: 0 1 auto;
+        }
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .illustration {
+        align-self: stretch;
+        aspect-ratio: 1 / 1;
+        border: 3px solid #3882f6;
+        border-radius: 12px;
+        flex: 0 1 auto;
+    }
+}
